@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मेरी स्कूल वेबसाइट</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Government HSS Ratatalai</h1>
+    <p>मेरी स्कूल वेबसाइट में आपका स्वागत है।</p>
+
+    <nav>
+        <button onclick="showPage('home')">Home</button>
+        <button onclick="showPage('about')">About</button>
+        <button onclick="showPage('gallery')">Gallery</button>
+        <button onclick="showPage('contact')">Contact</button>
+    </nav>
+
+    <div id="content">
+        <section id="home" class="page">
+            <h2>Home</h2>
+            <p>यह हमारी स्कूल वेबसाइट का मुख्य पेज है।</p>
+        </section>
+
+        <section id="about" class="page">
+            <h2>About</h2>
+            <p>हमारे स्कूल का नाम Government HSS Ratatalai है।</p>
+        </section>
+
+        <section id="gallery" class="page">
+            <h2>Gallery</h2>
+            <p>यहाँ स्कूल की फोटो दिखाई जाएँगी।</p>
+        </section>
+
+        <section id="contact" class="page">
+            <h2>Contact</h2>
+            <p>यहाँ स्कूल की संपर्क जानकारी दिखाई जाएगी।</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
