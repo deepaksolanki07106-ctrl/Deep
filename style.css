@@ -1,0 +1,51 @@
+
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #333333;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 12px 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.page {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#home {
+    display: block;
+}
